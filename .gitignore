@@ -1,13 +1,23 @@
-# Ignore Python venv and cache
-venv/
+```gitignore
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+*.log
 
-# VS Code config
-.vscode/
+# Virtual Environment
+venv/
 
 # Environment variables
 .env
+
+# Streamlit cache
+.streamlit/
+
+# OS
+.DS_Store
+
+# User uploads
+data/resumes/
 
 # Streamlit cache
 .streamlit/
